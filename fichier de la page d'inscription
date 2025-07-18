@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Inscription</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <p>
+      <a href="index.html">🇫🇷 Français</a> |
+      <a href="index-en.html">🇬🇧 English</a> |
+      <a href="index-bi.html">🇧🇮 Kirundi</a>
+    </p>
+  </nav>
+
+  <h1>Créer un compte</h1>
+  <form>
+    <label>Nom : <input type="text" name="nom" /></label><br /><br />
+    <label>Email : <input type="email" name="email" /></label><br /><br />
+    <label>Mot de passe : <input type="password" name="mdp" /></label><br /><br />
+    <input type="submit" value="S’inscrire" />
+  </form>
+</body>
+</html>
